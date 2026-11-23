@@ -1,1 +1,185 @@
-pg-hostel-website using HTML and CSS
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfort Stay - PG & Hostel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Comfort Stay</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#food">Food Menu</a>
+            <a href="#rules">Rules</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Comfort Stay PG & Hostel</h1>
+            <p>Your comfort, safety and happiness are our priority.</p>
+            <a href="#rooms" class="btn">Explore Rooms</a>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms">
+        <h2>Available Rooms</h2>
+        <div class="container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600" alt="Single Room">
+                <h3>Single Sharing</h3>
+                <p>Private room with attached bathroom.</p>
+                <h4>₹10,000 / Month</h4>
+                <button>Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600" alt="Double Room">
+                <h3>Double Sharing</h3>
+                <p>Comfortable room for two people.</p>
+                <h4>₹7,000 / Month</h4>
+                <button>Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600" alt="Triple Room">
+                <h3>Triple Sharing</h3>
+                <p>Affordable room for three people.</p>
+                <h4>₹5,000 / Month</h4>
+                <button>Book Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities">
+        <h2>Room Facilities</h2>
+        <div class="facilities">
+            <div>🛏️ Comfortable Beds</div>
+            <div>📶 Free Wi-Fi</div>
+            <div>❄️ Air Conditioning</div>
+            <div>🚿 Hot Water</div>
+            <div>🧺 Laundry Service</div>
+            <div>🔒 24/7 Security</div>
+            <div>🧹 Daily Cleaning</div>
+            <div>📚 Study Area</div>
+        </div>
+    </section>
+
+    <!-- Food Menu Section -->
+    <section id="food">
+        <h2>Weekly Food Menu</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Dinner</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Idli & Sambar</td>
+                <td>Rice & Dal</td>
+                <td>Chapati & Curry</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Dosa & Chutney</td>
+                <td>Veg Meals</td>
+                <td>Rice & Sambar</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Pongal</td>
+                <td>Rice & Curry</td>
+                <td>Chapati & Dal</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Upma</td>
+                <td>Veg Meals</td>
+                <td>Fried Rice</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Puri</td>
+                <td>Rice & Sambar</td>
+                <td>Dosa & Chutney</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Idli</td>
+                <td>Veg Meals</td>
+                <td>Chapati & Curry</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Masala Dosa</td>
+                <td>Special Meals</td>
+                <td>Veg Biryani</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules">
+        <h2>Hostel Rules & Regulations</h2>
+        <div class="rules-box">
+            <ul>
+                <li>Maintain cleanliness in rooms.</li>
+                <li>Entry time is before 9:00 PM.</li>
+                <li>Visitors are allowed only with permission.</li>
+                <li>Maintain silence after 10:00 PM.</li>
+                <li>Take care of hostel property.</li>
+                <li>Monthly rent must be paid on time.</li>
+                <li>Smoking and alcohol are strictly prohibited.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Complaint Section -->
+    <section id="support">
+        <h2>Complaint & Support</h2>
+        <div class="support-box">
+            <p>Facing any problem? We are here to help you.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Room Number" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Write your complaint..." required></textarea>
+                <button type="submit">Submit Complaint</button>
+            </form>
+            <p>Emergency Contact: +91 98765 43210</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-box">
+            <p>📍 Address: Vijayawada, Andhra Pradesh</p>
+            <p>📞 Phone: +91 98765 43210</p>
+            <p>✉️ Email: comfortstay@gmail.com</p>
+            <p>⏰ Office Hours: 9 AM - 8 PM</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Comfort Stay PG & Hostel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
